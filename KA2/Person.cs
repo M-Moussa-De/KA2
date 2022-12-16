@@ -5,9 +5,7 @@
         private string nachname;
         private string vorname;
 
-        public Person()
-        {
-        }
+        public Person() { }
 
         public Person(string nn, string vn)
         {

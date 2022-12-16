@@ -8,7 +8,6 @@ Person p2 = new Person("Allan", "Max");
 sn.HinzufuegenMitglied(p1);
 sn.HinzufuegenMitglied(p2);
 
-
 Textnachricht n = new Textnachricht("Nachricht von erster Person", p1);
 Textnachricht n2 = new Textnachricht("Nachricht von zweiter Person", p2);
 Textnachricht n3 = new Textnachricht("Nachricht von zweiter Person noch mal", p2);

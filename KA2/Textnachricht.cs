@@ -5,12 +5,7 @@
         private string nachricht;
 
         public Textnachricht() { }
-
-        public Textnachricht(string nachricht, Person absender) : base(absender)
-        {
-            this.nachricht = nachricht;
-        }
-        
+        public Textnachricht(string nachricht, Person absender) : base(absender) => this.nachricht = nachricht;        
         public override string GetNachricht()
         {
             string info = string.Empty;

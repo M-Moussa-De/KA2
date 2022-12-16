@@ -11,16 +11,8 @@
             this.nachrichtenliste = new List<Nachricht>();
         }
 
-        public void HinzufuegenMitglied(Person person)
-        { 
-            this.mitgliederliste.Add(person);
-        }
-
-        public void HinzufuegenNachricht(Nachricht nachricht)
-        {
-            this.nachrichtenliste.Add(nachricht);
-        }
-
+        public void HinzufuegenMitglied(Person person) => this.mitgliederliste.Add(person);
+        public void HinzufuegenNachricht(Nachricht nachricht) => this.nachrichtenliste.Add(nachricht);
         public string GetAlleNachrichten()
         {
             string txt = string.Empty;
@@ -36,7 +28,6 @@
         public string GetPassword(string satz)
         {
             string pass = string.Empty;
-
             string[] woerterArr = satz.Split(" ");
            
             for (int i = 0; i < woerterArr.Length; i++)
@@ -53,7 +44,6 @@
                     }
                 }
             }
-
             return pass;
         }
     }

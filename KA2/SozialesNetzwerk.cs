@@ -12,7 +12,9 @@
         }
 
         public void HinzufuegenMitglied(Person person) => this.mitgliederliste.Add(person);
+
         public void HinzufuegenNachricht(Nachricht nachricht) => this.nachrichtenliste.Add(nachricht);
+
         public string GetAlleNachrichten()
         {
             string txt = string.Empty;
